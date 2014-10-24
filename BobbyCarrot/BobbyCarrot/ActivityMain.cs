@@ -11,29 +11,28 @@ using Microsoft.Xna.Framework;
 
 namespace BobbyCarrot
 {
-	[Activity (Label = "BobbyCarrot", 
-		MainLauncher = true,
-		Icon = "@drawable/icon",
-		Theme = "@style/Theme.Splash",
-		AlwaysRetainTaskState = true,
-		LaunchMode = Android.Content.PM.LaunchMode.SingleInstance,
-		ConfigurationChanges = Android.Content.PM.ConfigChanges.Orientation |
-		Android.Content.PM.ConfigChanges.KeyboardHidden |
-		Android.Content.PM.ConfigChanges.Keyboard)]
-	public class Activity1 : AndroidGameActivity
-	{
-		protected override void OnCreate (Bundle bundle)
-		{
-			base.OnCreate (bundle);
+    [Activity (Label = "BobbyCarrot", 
+        MainLauncher = true,
+        Icon = "@drawable/icon",
+        Theme = "@style/Theme.Splash",
+        AlwaysRetainTaskState = true,
+        LaunchMode = Android.Content.PM.LaunchMode.SingleInstance,
+        ConfigurationChanges = Android.Content.PM.ConfigChanges.Orientation |
+                               Android.Content.PM.ConfigChanges.KeyboardHidden |
+                               Android.Content.PM.ConfigChanges.Keyboard)]
+    public class Activity1 : AndroidGameActivity
+    {
+        protected override void OnCreate(Bundle bundle)
+        {
+            base.OnCreate(bundle);
 
-			// Create our OpenGL view, and display it
-			Game.Activity = this;
-			var g = new Game ();
-			SetContentView (g.Window);
-			g.Run ();
-		}
-		
-	}
+            // Create our OpenGL view, and display it
+            Game.Activity = this;
+            var g = new Game();
+            SetContentView(g.Window);
+            g.Run();
+        }
+    }
 }
 
 
