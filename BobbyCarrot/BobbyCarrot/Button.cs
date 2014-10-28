@@ -8,9 +8,10 @@ namespace BobbyCarrot
 {
     class Button
     {
-        public Texture2D TextureButton;     //текстура для кнопки
-        private bool IsPressed;             //нажата ли кнопка
-        public bool IsEnabled;              //кликабельна ли кнопка
+        public Texture2D TextureButton { get; set; }            //текстура для кнопки в не нажатом состоянии
+        public Texture2D TextureButtonPressed { get; set; }     //текстура для кнопки в нажатом состоянии
+        private bool IsPressed { get; set; }                    //нажата ли кнопка
+        public bool IsEnabled { get; set; }                     //кликабельна ли кнопка
 
 
         public Button()
@@ -19,18 +20,13 @@ namespace BobbyCarrot
             this.IsPressed = false;
         }
 
-        public Button(Texture2D texture)
-        {
-            this.TextureButton = texture;
-            this.IsEnabled = true;
-            this.IsPressed = false;
-        }
 
-        public Button(bool isEn, bool isPr, Texture2D texture)
+        public Button(bool isEn, bool isPr, Texture2D texture1, Texture2D texture2)
         {
             this.IsEnabled = isEn;
             this.IsPressed = isPr;
-            this.TextureButton = texture;
+            this.TextureButton = texture1;
+            this.TextureButtonPressed = texture2;
         }
 
         public void Update()

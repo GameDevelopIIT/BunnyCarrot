@@ -17,9 +17,8 @@ namespace BobbyCarrot
     class Player
     {
         public Texture2D PlayerTexture { get; set; }    //текстура игрока
-        public Vector2 Position;                        //позиция игрока
-        public int Direction;                           //направление движения 
-        public int Lives;                               //число жизней : будем ли делать!?
+        public Vector2 Position { get; set; }           //позиция игрока
+        public int Lives { get; set; }                  //число жизней : будем ли делать!?
 
 
         public void Initialize(Texture2D texture)
