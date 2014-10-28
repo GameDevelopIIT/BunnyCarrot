@@ -9,17 +9,16 @@ namespace BobbyCarrot
     /// </summary>
     public class Game : Microsoft.Xna.Framework.Game
     {
-        //Buttons
-        public Button ButtonExit = new Button();
-        public Button ButtonSettings = new Button();
-        public Button ButtonStartGame = new Button();
-        public Button ButtonMarket = new Button();
-
-        //
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
         SpriteFont font;
 
+        //Buttons
+        Button ButtonExit = new Button();
+        Button ButtonSettings = new Button();
+        Button ButtonStartGame = new Button();
+        Button ButtonMarket = new Button();
+        //
         public Game()
         {
             graphics = new GraphicsDeviceManager(this);

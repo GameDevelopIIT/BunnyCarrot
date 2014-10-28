@@ -12,6 +12,13 @@ namespace BobbyCarrot
         private bool IsPressed;             //нажата ли кнопка
         public bool IsEnabled;              //кликабельна ли кнопка
 
+
+        public Button()
+        {
+            this.IsEnabled = true;
+            this.IsPressed = false;
+        }
+
         public Button(Texture2D texture)
         {
             this.TextureButton = texture;
