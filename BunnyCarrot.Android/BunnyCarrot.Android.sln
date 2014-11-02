@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunnyCarrot.Android", "BunnyCarrot.Android\BunnyCarrot.Android.csproj", "{D699AD28-E85B-494B-9B30-1F745CFCB0FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunnyCarrot", "BunnyCarrot\BunnyCarrot.csproj", "{5BBF154F-DBDD-48DC-B9D2-799713610412}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BBF154F-DBDD-48DC-B9D2-799713610412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBF154F-DBDD-48DC-B9D2-799713610412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBF154F-DBDD-48DC-B9D2-799713610412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBF154F-DBDD-48DC-B9D2-799713610412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D699AD28-E85B-494B-9B30-1F745CFCB0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D699AD28-E85B-494B-9B30-1F745CFCB0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D699AD28-E85B-494B-9B30-1F745CFCB0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D699AD28-E85B-494B-9B30-1F745CFCB0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = BunnyCarrot.Android\BunnyCarrot.Android.csproj
+	EndGlobalSection
+EndGlobal
