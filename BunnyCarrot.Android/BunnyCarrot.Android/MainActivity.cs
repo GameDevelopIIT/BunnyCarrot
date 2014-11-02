@@ -6,10 +6,21 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Content.PM;
 
 namespace BunnyCarrot.Android
 {
-	[Activity (Label = "BunnyCarrot.Android", MainLauncher = true, Icon = "@drawable/icon")]
+	[Activity(
+		Label = "BouncingGame",
+		AlwaysRetainTaskState = true,
+		Icon = "@drawable/icon",
+		Theme = "@android:style/Theme.NoTitleBar",
+		LaunchMode = LaunchMode.SingleInstance,
+		ScreenOrientation = ScreenOrientation.Portrait,
+		MainLauncher = true,
+		ConfigurationChanges =  ConfigChanges.Keyboard | 
+		ConfigChanges.KeyboardHidden)
+	]
 	public class MainActivity : Activity
 	{
 		int count = 1;
