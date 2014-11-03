@@ -20,6 +20,8 @@ namespace BunnyCarrot.UI
             Resolution.DesignResolution = mainWindow.DesignResolutionSize;
 
             // todo:  Add our GameScene initialization here
+
+            CCScene scene = MainManuLayer.MainManuLayerScene(mainWindow);
         }
 
         public override void ApplicationDidEnterBackground(CCApplication application)
