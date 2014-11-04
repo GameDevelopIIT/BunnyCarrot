@@ -13,6 +13,7 @@ namespace BunnyCarrot.UI
         public override void ApplicationDidFinishLaunching(CCApplication application, CCWindow mainWindow)
         {
             application.PreferMultiSampling = false;
+            application.ContentSearchPaths.Add("Content");
             application.ContentRootDirectory = "Content";
             //mainWindow.SupportedDisplayOrientations = CCDisplayOrientation.Default;
 
@@ -22,6 +23,7 @@ namespace BunnyCarrot.UI
             // todo:  Add our GameScene initialization here
 
             CCScene scene = MainManuLayer.MainManuLayerScene(mainWindow);
+            mainWindow.RunWithScene(scene);
         }
 
         public override void ApplicationDidEnterBackground(CCApplication application)

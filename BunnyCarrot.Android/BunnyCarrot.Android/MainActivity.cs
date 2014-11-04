@@ -28,6 +28,8 @@ namespace BunnyCarrot.Android
         {
             base.OnCreate(bundle);
 
+            var tv = new TextView(this);
+            tv.Text = "Hello,World";
             var application = new CCApplication();
 
             // GameAppDelegate is your class that inherits from CCApplicationDelegate
