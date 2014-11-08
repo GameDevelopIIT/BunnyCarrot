@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+//using Microsoft.Xna.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace BunnyCarrot
         /// <summary>
         /// Позиция игрока на поле
         /// </summary>
-        public Vector2 position { get; set; }
+		public Vector2 position { get; set; }
 
         /// <summary>
         /// Монеты игрока

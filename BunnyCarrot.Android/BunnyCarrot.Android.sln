@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunnyCarrot.Android", "BunnyCarrot.Android\BunnyCarrot.Android.csproj", "{D699AD28-E85B-494B-9B30-1F745CFCB0FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunnyCarrot.Android", "BunnyCarrot.Android\BunnyCarrot.Android.csproj", "{1BF60ADF-5FC1-4C98-845A-38A7B2AD8740}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunnyCarrot", "BunnyCarrot\BunnyCarrot.csproj", "{5BBF154F-DBDD-48DC-B9D2-799713610412}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BunnyCarrot", "BunnyCarrot\BunnyCarrot.csproj", "{13D294DB-2B55-4386-AC47-F3EBE2CC8C09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D699AD28-E85B-494B-9B30-1F745CFCB0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D699AD28-E85B-494B-9B30-1F745CFCB0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D699AD28-E85B-494B-9B30-1F745CFCB0FC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{D699AD28-E85B-494B-9B30-1F745CFCB0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D699AD28-E85B-494B-9B30-1F745CFCB0FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5BBF154F-DBDD-48DC-B9D2-799713610412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5BBF154F-DBDD-48DC-B9D2-799713610412}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5BBF154F-DBDD-48DC-B9D2-799713610412}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{5BBF154F-DBDD-48DC-B9D2-799713610412}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5BBF154F-DBDD-48DC-B9D2-799713610412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF60ADF-5FC1-4C98-845A-38A7B2AD8740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF60ADF-5FC1-4C98-845A-38A7B2AD8740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF60ADF-5FC1-4C98-845A-38A7B2AD8740}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1BF60ADF-5FC1-4C98-845A-38A7B2AD8740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF60ADF-5FC1-4C98-845A-38A7B2AD8740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D294DB-2B55-4386-AC47-F3EBE2CC8C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D294DB-2B55-4386-AC47-F3EBE2CC8C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D294DB-2B55-4386-AC47-F3EBE2CC8C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D294DB-2B55-4386-AC47-F3EBE2CC8C09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

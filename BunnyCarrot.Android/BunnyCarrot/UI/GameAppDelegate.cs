@@ -13,17 +13,9 @@ namespace BunnyCarrot.UI
         public override void ApplicationDidFinishLaunching(CCApplication application, CCWindow mainWindow)
         {
             application.PreferMultiSampling = false;
-            application.ContentSearchPaths.Add("Content");
             application.ContentRootDirectory = "Content";
-            //mainWindow.SupportedDisplayOrientations = CCDisplayOrientation.Default;
+            //mainWindow.SupportedDisplayOrientations = CCDisplayOrientation.;
 
-            // Установим общее разрешение, котораое будет использоваться для всех сцен
-            Resolution.DesignResolution = mainWindow.DesignResolutionSize;
-
-            // todo:  Add our GameScene initialization here
-
-            CCScene scene = MainManuLayer.MainManuLayerScene(mainWindow);
-            mainWindow.RunWithScene(scene);
         }
 
         public override void ApplicationDidEnterBackground(CCApplication application)
@@ -32,13 +24,13 @@ namespace BunnyCarrot.UI
             application.Paused = true;
 
             // If SimpleAudioEngine is used, the music must be paused.
-            CCSimpleAudioEngine.SharedEngine.PauseBackgroundMusic();
+            //CCSimpleAudioEngine.SharedEngine.PauseBackgroundMusic();
         }
 
         public override void ApplicationWillEnterForeground(CCApplication application)
         {
             application.Paused = false;
-            CCSimpleAudioEngine.SharedEngine.ResumeBackgroundMusic();
+            //CCSimpleAudioEngine.SharedEngine.ResumeBackgroundMusic();
         }
     }
 
